@@ -1,0 +1,1 @@
+java -Xmx1024M -Xms128M -jar Waterfall.jar 

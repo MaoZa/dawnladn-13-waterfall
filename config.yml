@@ -1,0 +1,73 @@
+connection_throttle_limit: 3
+timeout: 30000
+online_mode: false
+log_commands: false
+network_compression_threshold: 256
+listeners:
+- query_port: 25565
+  motd: '&1Another Bungee server'
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - lobby
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 10000
+  tab_size: 60
+  force_default_server: true
+connection_throttle: 4000
+groups:
+  Cap_Sub:
+  - admin
+log_pings: true
+ip_forward: true
+prevent_proxy_connections: false
+forge_support: true
+inject_commands: false
+disabled_commands:
+- disabledcommandhere
+stats: 88c4072e-bbf5-46ff-848d-df0bf955e029
+permissions:
+  default:
+  - bungeecord.command.list
+  - skinsrestorer.playercmds
+  admin:
+  - skinsrestorer.cmds
+servers:
+  SC:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25566
+    restricted: false
+  SC2:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25567
+    restricted: false
+  SC3:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25568
+    restricted: false
+  KD:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25569
+    restricted: false
+  SM:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25570
+    restricted: false
+  lobby:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25571
+    restricted: false
+  CZ:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25572
+    restricted: false
+  CJ:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25573
+    restricted: false
+player_limit: -1

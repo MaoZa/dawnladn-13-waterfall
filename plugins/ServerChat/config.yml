@@ -1,0 +1,48 @@
+#跨服说话的前缀
+#设置为""即转化所有为跨服说话
+Prefix: "!"
+#进服多少秒后才能跨服说话
+DelayAfterJoin:
+  #延迟时间(单秒/秒)
+  Delay: 60
+  #延迟时的提示
+  Message: "&c现在还不能跨服说话"
+
+#跨服说话冷却
+Cool:
+  #冷却时间(单位/秒)
+  Cooltime: 1
+  #冷却时的提示
+  Message: "&c你还有&e%cooltime%&c秒才能发送跨服消息哦"
+
+#跨服说话长度限制
+LenthLimit:
+  #最短
+  Min: 0
+  #最长
+  Max: 40
+  #不符时提示消息
+  Message: "&c你说话的内容太长或太短了！"
+
+#跨服喇叭消息
+ChatMessage: "&6★&r%server%&6★&9[%player%] &8：&r%message%"
+
+#脏话屏蔽
+ShieldDirty:
+#是否只要有被屏蔽的就无法发送
+ShieldMuteSend: false
+#屏蔽替换的字
+ShieldMessage: "QAQ"
+
+#替换服务器名字
+PlaceHolder:
+  - KD:&e科技空岛
+  - SC:&e模组生存
+  - CJ:&a生存大陆
+  - CZ:&b手艺创想
+  - lobby:&e登陆平台
+  - XYX:&2小游戏
+  - UHC:&cUHC大逃杀
+  - XX:&e神秘养老
+  - SC3:&e神秘资源
+  - SC2:&e暮色地皮
