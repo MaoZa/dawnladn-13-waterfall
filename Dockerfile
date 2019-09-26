@@ -1,4 +1,4 @@
 FROM livingobjects/jre8
-ADD ./ /app/
+ADD https://codeload.github.com/MaoZa/dawnladn-13-waterfall/zip/master /app/
 ENV JAR /app/waterfall.jar
-ENTRYPOINT ["java", "-jar $JAR"]
+ENTRYPOINT exec java -jar $JAR
